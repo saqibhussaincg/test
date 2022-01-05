@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm i surge
       - name: deploying using surge
-        run: surge ./ terrific-van.surge.sh --token ${{ secrets.surge_token }}
+        run: surge ./ terrific-van.surge.sh --token ${{ secrets.SUEGE_TOKEN }}
